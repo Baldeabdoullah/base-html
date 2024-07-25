@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Court html</title>
+    <!-- Icone de l'onglet -->
+    <link rel="shortcut icon" href="./logo.png" />
+  </head>
+  <body>
+    <!-- <h1>salut html</h1> -->
+    <nav>
+      <ul>
+        <li>Accueil</li>
+        <li>Boutique</li>
+        <li>Blog</li>
+        <li> <a href="#form">Formulaire</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <!-- Un seul h1 par page -->
+      <h1>Ceci est le titre principale</h1>
+      <p>Salut <strong>ca va ? </strong> <em>Les gens</em></p>
+
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut at
+        architecto officiis, repellendus corporis quasi ut vero totam fugiat eum
+        magni voluptatibus doloremque quidem provident ab dolores deleniti,
+        neque aspernatur!
+      </p>
+    </header>
+
+    <main>
+        
+    <section>
+        <h2>Ordered liste</h2>
+
+        <ol>
+            <li>Ceci est une</li>
+            <li>liste dans</li>
+            <li> l'ordre</li>
+        </ol>
+
+    </section>
+
+    <section>
+        <h3>Image en html</h3>
+        <img src="./free-nature-images.jpg" height="250" alt="image arbre">
+
+        <div>
+            <h4>Tableau</h4>
+            <table border="4" cellpadding="10" cellspacing="4" style="text-align: center;">
+             <thead>
+                <tr>
+                    <th>Col 1</th>
+                    <th>Col 2</th>
+                    <th>Col 3</th>
+                </tr>
+             </thead>
+             <tbody>
+                <tr>
+                    <td>Cell 1</td>
+                    <td >Cell 2</td>
+                    <td>Cell 3</td>
+                </tr>
+                <tr>
+                    <td>Cell 4</td>
+                    <td>Cell 5</td>
+                    <td>Cell 6</td>
+                </tr>
+             </tbody>
+            </table>
+        </div>
+
+        <div>
+            <h5> <i>&#127849;</i>Les liens</h5>
+            <a target="_blank" href="https://htmlcheatsheet.com">HTML cheat Sheet</a>
+        </div>
+
+        <div>
+            <h6> <i>&#128190;</i> Video</h6>
+            <video src="./video.mp4" autoplay muted loop height="250" ></video>
+        </div>
+    </section>
+
+    <section id="form">
+        <h2>Les Formulaires</h2>
+        <form action="">
+            <label for="name">Nom</label>
+            <input  id="name" type="text" placeholder="entrez votre nom">
+
+            <br> <br>
+            <label for="age">age</label>
+            <input value="18"  id="age" type="number" placeholder="entrez votre age">
+
+            <br> <br>
+
+            <!-- input de type select -->
+             <label for="gender">Gender</label>
+            <select name="" id="gender">
+                <option selected="selected">Homme</option>
+                <option value="Femme">Femme</option>
+                <option value="Autre">Autre</option>
+            </select>
+
+            <!-- input de type radio -->
+             <div>
+                <input type="radio" name="type" id="human">
+                <label for="human">Humain</label>
+
+                <input type="radio" name="type" id="dog">
+                <label for="dog">Chien</label>
+
+                <input type="radio" name="type" id="cat">
+                <label for="cat">Chat</label>
+             </div>
+
+             <textarea name="" placeholder="votre message" cols="20" rows="5" id=""></textarea>
+
+             <br>
+             <!-- input de type checkbox -->
+              <input type="checkbox" name="" id="cgv">
+              <label for="cgv">Accepter les conditions generales</label>
+
+
+              <input type="submit" value=" valider le formulaire">
+            </form>
+            <button>Ceci est un boutton</button>
+    </section>
+
+</main>
+
+    <footer>
+        <!-- Mail et envoie de fichier -->
+         <a href="mailto:abdoullahbalde@gmail.com">Contactez moi</a>
+
+         <a href="./notice.txt" download="Notice">Telecharger la notice</a>
+    </footer>
+  </body>
+</html>
